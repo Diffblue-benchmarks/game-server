@@ -11,14 +11,14 @@
 	<description>游戏服务器父项目</description>
 	<modules>
 		<module>game-engine</module>
-		<module>game-gate</module>
+		<!-- <module>game-gate</module>
 		<module>game-model</module>
 		<module>game-cluster</module>
 		<module>game-message</module>
 		<module>game-bydr</module>
 		<module>game-hall</module>
 		<module>game-bydr-world</module>
-		<module>game-ai</module>
+		<module>game-ai</module> -->
 	</modules>
 
 	<properties>
