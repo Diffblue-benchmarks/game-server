@@ -7,9 +7,9 @@ units:
   # Target Coverage: Unknown %
   - target:
     - dir: game-engine/target/classes
-      file: com/jzy/game/engine/util/StringUtil.class
+      file: com/jzy/game/engine/util/CipherUtil.class
       sourceDir: game-engine/src/main/java
-      sourceFile: com/jzy/game/engine/util/StringUtil.java
+      sourceFile: com/jzy/game/engine/util/CipherUtil.java
 phases:
 -
   timeout: 60
