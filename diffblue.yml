@@ -3,6 +3,21 @@ cbmcArguments:
   cover-function-only: false
   do-not-test-methods-with-access: [ private ]
   java-generate-no-comments: true
+units:
+  # Target Coverage: Unknown %
+  - target:
+    - dir: game-engine/target/classes
+      file: com/jzy/game/engine/math/Plane.class
+      sourceDir: game-engine/src/main/java
+      sourceFile: com/jzy/game/engine/math/Plane.java
+    - dir: game-engine/target/classes
+      file: com/jzy/game/engine/math/Vector3.class
+      sourceDir: game-engine/src/main/java
+      sourceFile: com/jzy/game/engine/math/Vector3.java
+    - dir: game-engine/target/classes
+      file: com/jzy/game/engine/math/Vector.class
+      sourceDir: game-engine/src/main/java
+      sourceFile: com/jzy/game/engine/math/Vector.java
 phases:
 -
   timeout: 60
