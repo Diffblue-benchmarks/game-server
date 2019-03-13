@@ -7,9 +7,20 @@ units:
   # Target Coverage: Unknown %
   - target:
     - dir: game-engine/target/classes
-      file: com/jzy/game/engine/util/CipherUtil.class
+      file: com/jzy/game/engine/math/Plane.class
       sourceDir: game-engine/src/main/java
-      sourceFile: com/jzy/game/engine/util/CipherUtil.java
+      sourceFile: com/jzy/game/engine/math/Plane.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: game-engine/target/classes
+      file: com/jzy/game/engine/math/Vector3.class
+      sourceDir: game-engine/src/main/java
+      sourceFile: com/jzy/game/engine/math/Vector3.java
+  - target:
+    - dir: game-engine/target/classes
+      file: com/jzy/game/engine/math/Vector.class
+      sourceDir: game-engine/src/main/java
+      sourceFile: com/jzy/game/engine/math/Vector.java
 phases:
 -
   timeout: 60
